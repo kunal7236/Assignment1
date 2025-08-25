@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 100;
+}
+.head {
+  height: 200px;
+  padding-top: 20px;
+  background-color: #396d39;
+  position: relative;
+}
+.head h1 {
+  padding-left: 60px;
+  color: white;
+  font-size: 35px;
+}
+.head h3 {
+  padding-left: 60px;
+  color: white;
+}
+.head .btns_family {
+  padding-left: 60px;
+  display: inline;
+  position: absolute;
+  bottom: 0px;
+}
+.btns {
+  width: auto;
+  height: 34px;
+  margin-left: 2px;
+  padding: 5px;
+  background-color: #4f974e;
+  color: white;
+  border: none;
+}
+.btns:hover{
+  background-color: green;
+  cursor: pointer;
+}
+.text_column {
+  margin: 60px;
+  width: 1000px;
+}
+.para {
+  margin-top: 20px;
+}
+#secondpara {
+  background-color: #b2d4b2;
+  padding: 20px;
+}
+.image_box {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.imagewithcaption{
+    position: relative;
+    height: 600px;
+    width: 440px;
+}
+
+img{
+    height: 590px;
+    width: 440px;
+    position: absolute;
+    top: 0;
+    object-fit: contain;
+    object-position: top;
+}
+.caption{
+  position: absolute;
+  bottom: 15px;
+}
+.main_page{
+  position: relative;
+}
+.text_column{
+  position: absolute;
+  left: 0;
+}
+.right_box{
+  position: absolute;
+  right: 0;
+  top: 200px;
+  margin: 20px;
+  padding: 20px;
+  width: 400px;
+  background-color: #B2D4B2;
+}
