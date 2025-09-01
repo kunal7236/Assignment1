@@ -41,8 +41,10 @@
   cursor: pointer;
 }
 .text_column {
-  margin: 60px;
-  width: 1000px;
+  margin: 20px;
+  margin-left: 60px;
+  height: 100%;
+  width: 70%;
 }
 .para {
   margin-top: 20px;
@@ -55,31 +57,34 @@
     margin-top: 20px;
     display: flex;
     justify-content: center;
+    height: 30%;
 }
 .imagewithcaption{
     position: relative;
-    height: 600px;
-    width: 440px;
+    height: 100%;
+    width: 45%;
 }
 
 img{
-    height: 590px;
-    width: 440px;
+    height: 100%;
+    width: 100%;
     position: absolute;
     top: 0;
-    object-fit: contain;
+    object-fit: fill;
     object-position: top;
 }
 .caption{
   position: absolute;
-  bottom: 15px;
+  bottom: 0;
 }
 .main_page{
   position: relative;
+  height: 1400px;
 }
 .text_column{
   position: absolute;
   left: 0;
+  width: 65%;
 }
 .right_box{
   position: absolute;
@@ -87,6 +92,6 @@ img{
   top: 200px;
   margin: 20px;
   padding: 20px;
-  width: 400px;
+  width: 25%;
   background-color: #B2D4B2;
 }
